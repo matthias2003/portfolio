@@ -26,7 +26,13 @@
     background-color: #94CECA;
     border-radius: 50%;
     margin: 10px;
+    transition: all 0.1s linear;
 }
+
+.info__wrap .dot:hover {
+    scale: 1.05;
+}
+
 
 .info__wrap .dot:hover {
     cursor: pointer;
@@ -44,6 +50,14 @@
 
 .image__wrap {
     position: relative;
+}
+
+.image__wrap > * {
+    transition: all 0.1s linear;
+}
+
+.image__wrap > *:hover {
+    scale: 1.05;
 }
 
 .image__wrap .circle {
