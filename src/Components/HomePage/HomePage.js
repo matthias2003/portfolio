@@ -10,7 +10,7 @@ function HomePage() {
             <div className='info__wrap'>
                 <p>Hi,</p>
                 <p>I am Maciej.</p>
-                <p>A web developer.</p>
+                <p className='last__row'>A web developer.</p>
                 <div className='icons__wrap'> 
                     <div className='dot'><img src={mail} className='info__icon' alt='Mail'/></div>
                     <div className='dot'><img src={phone} className='info__icon' alt='Phone'/></div>
@@ -18,10 +18,10 @@ function HomePage() {
                 </div>
             </div>
             <div className='image__wrap'>
-                <div className='circle xxl'></div>
-                <div className='circle xl'></div>
-                <div className='circle md'></div>
-                <div className='circle sm'><img src={photo} className='image'alt=''/></div>
+                    <div className='circle xxl'></div>
+                    <div className='circle xl'></div>
+                    <div className='circle md'></div>
+                    <div className='circle sm'><img src={photo} className='image'alt=''/></div>
             </div>
         </div>
     )

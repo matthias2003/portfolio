@@ -11,9 +11,9 @@ function Nav() {
                 <div className='nav__links'>
                     <ul>
                         <li><Link to='/'>HOME</Link></li> {/* TODO: zrobić sciezki i przekierowania na elementy*/}
-                        <li><Link to='/'>ABOUT</Link></li>
-                        <li><Link to='/'>PORTFOLIO</Link></li>
-                        <li><Link to='/'>CONTACT ME</Link></li>
+                        <li><Link to='/about' >ABOUT</Link></li>
+                        <li><Link to='/portfolio'>PORTFOLIO</Link></li>
+                        <li><Link to='/contact'>CONTACT ME</Link></li>
                     </ul>
                     <img onClick={() => { window.location.href = 'https://github.com/matthias2003'}} className='nav__icon' src={githubIcon} alt='Github' />
                 </div>
@@ -22,5 +22,5 @@ function Nav() {
     )
 }
 
-
+ 
 export default Nav;

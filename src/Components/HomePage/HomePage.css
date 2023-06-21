@@ -8,10 +8,9 @@
     margin: 0px;
 }
 
-.info__wrap p:last-child {
-    font-weight: 600;
-    font-size: 40px;
-    margin-top: 50px;
+.info__wrap .last__row {
+    font-size: 30px;
+    margin-top: 20px;
 }
 
 .info__wrap .icons__wrap {
@@ -30,9 +29,8 @@
 }
 
 .info__wrap .dot:hover {
-    scale: 1.05;
+    scale: 1.05; 
 }
-
 
 .info__wrap .dot:hover {
     cursor: pointer;
@@ -49,11 +47,11 @@
 }
 
 .image__wrap {
-    position: relative;
+    position: relative;   
 }
 
 .image__wrap > * {
-    transition: all 0.1s linear;
+    transition: all 0.2s linear;
 }
 
 .image__wrap > *:hover {

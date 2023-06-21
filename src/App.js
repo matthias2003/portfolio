@@ -1,6 +1,9 @@
 import './App.css';
 import Nav from './Components/Nav/Nav';
 import HomePage from './Components/HomePage/HomePage.js'
+import About from './Components/About/About';
+import Portfolio from './Components/Portfolio/Portfolio';
+import Contact from './Components/Contact/Contact.js';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
@@ -11,6 +14,9 @@ function App() {
         <div className='container'>
           <Routes>
             <Route exact path='/' element={<HomePage />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/portfolio' element={<Portfolio />} />
+            <Route path='/contact' element={<Contact />} />
           </Routes>
         </div>
       </main>
