@@ -1,5 +1,9 @@
 .home__wrap {
     display: flex;
+    padding-left: 10%;
+    padding-right: 20%;
+    margin-top: 25vh;
+    justify-content: space-between;
 }
 
 .info__wrap p {
@@ -60,40 +64,9 @@
 
 .image__wrap .circle {
     border-radius: 50%;
-}
-
-.image__wrap .sm {
     height: 300px;
     width: 300px;
     background-color: #94CECA;
-    position: absolute;
-    top: 150px;
-    left: 150px;
-}
-
-.image__wrap .md {
-    height: 400px;
-    width: 400px;
-    background-color: #94CECA80;
-    position: absolute;
-    top: 100px;
-    left: 100px;
-}
-
-.image__wrap .xl {
-    height: 500px;
-    width: 500px;
-    background-color: #94CECA33;
-    position: absolute;
-    top: 50px;
-    left: 50px;
-}
-
-.image__wrap .xxl {
-    height: 600px;
-    width: 600px;
-    background-color: #94CECA0D;
-    position: absolute;
 }
 
 .image {
