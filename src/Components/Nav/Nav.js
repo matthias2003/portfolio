@@ -10,7 +10,7 @@ function Nav() {
                 <Link to='/'><img className='nav__logo' src={logo} alt='Logo'/></Link>
                 <div className='nav__links'>
                     <ul>
-                        <li><Link to='/'>HOME</Link></li> {/* TODO: zrobić sciezki i przekierowania na elementy*/}
+                        <li><Link to='/'>HOME</Link></li>
                         <li><Link to='/about' >ABOUT</Link></li>
                         <li><Link to='/portfolio'>PORTFOLIO</Link></li>
                         <li><Link to='/contact'>CONTACT ME</Link></li>

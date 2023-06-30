@@ -18,10 +18,7 @@ function HomePage() {
                 </div>
             </div>
             <div className='image__wrap'>
-                    <div className='circle xxl'></div>
-                    <div className='circle xl'></div>
-                    <div className='circle md'></div>
-                    <div className='circle sm'><img src={photo} className='image'alt=''/></div>
+                    <div className='circle '><img src={photo} className='image'alt=''/></div>
             </div>
         </div>
     )
