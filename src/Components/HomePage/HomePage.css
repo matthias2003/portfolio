@@ -1,77 +1,77 @@
 .home__wrap {
-    display: flex;
-    margin-top: 25vh;
-    margin-right: 15%;
-    margin-left: 15%;
-    justify-content: space-between;
+  display: flex;
+  margin-top: 25vh;
+  margin-right: 15%;
+  margin-left: 15%;
+  justify-content: space-between;
 }
 
 .info__wrap p {
-    font-weight: 600;
-    font-size: 50px;
-    margin: 0px;
+  font-weight: 600;
+  font-size: 50px;
+  margin: 0px;
 }
 
 .info__wrap .last__row {
-    font-size: 30px;
-    margin-top: 20px;
+  font-size: 30px;
+  margin-top: 20px;
 }
 
 .info__wrap .icons__wrap {
-    display: flex;
+  display: flex;
 }
 
 .info__wrap .dot {
-    display: flex;
-    align-items: center;
-    height: 50px;
-    width: 50px;
-    background-color: #94CECA;
-    border-radius: 50%;
-    margin: 10px;
-    transition: all 0.1s linear;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  background-color: #94ceca;
+  border-radius: 50%;
+  margin: 10px;
+  transition: all 0.1s linear;
 }
 
 .info__wrap .dot:hover {
-    scale: 1.05; 
+  scale: 1.05;
 }
 
 .info__wrap .dot:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .info__wrap .dot:first-child {
-    margin-left: 0px;
+  margin-left: 0px;
 }
 
 .info__wrap .info__icon {
-    width: 30px;
-    margin: auto;
-    height: auto;
+  width: 30px;
+  margin: auto;
+  height: auto;
 }
 
 .image__wrap {
-    position: relative;   
+  position: relative;
 }
 
 .image__wrap > * {
-    transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 
 .image__wrap > *:hover {
-    scale: 1.05;
+  scale: 1.05;
 }
 
 .image__wrap .circle {
-    border-radius: 50%;
-    height: 300px;
-    width: 300px;
-    background-color: #94CECA;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  background-color: #94ceca;
 }
 
 .image {
-    display: flex;
-    margin: auto;
-    height: auto;
-    width: 250px;
+  display: flex;
+  margin: auto;
+  height: auto;
+  width: 250px;
 }

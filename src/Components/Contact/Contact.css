@@ -4,7 +4,7 @@
     width: 39%;
     height: 60vh;
     background-color: #94ceca;
-    border-radius: 50px;
+    border-radius: 30px;
     padding: 5px 20px;
 }
 
@@ -17,6 +17,6 @@
     width: 95%;
     height: 85%;
     margin: auto;
-    border-radius: 50px;
+    border-radius: 30px;
     background-color: white;
 }

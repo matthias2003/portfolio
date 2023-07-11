@@ -1,6 +1,6 @@
 .about__wrap {
   background-color: #94ceca;
-  border-radius: 50px;
+  border-radius: 30px;
   width: 70%;
   height: 500px;
   margin: auto;
@@ -18,7 +18,7 @@
   background-color: white;
   padding: 1%;
   margin: auto;
-  border-radius: 50px;
+  border-radius: 30px;
   height: 35vh;
 }
 
