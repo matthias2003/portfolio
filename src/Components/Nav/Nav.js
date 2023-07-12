@@ -1,24 +1,22 @@
-import logo from '../../Assets/logo.png';
-import { Link } from 'react-router-dom';
-import githubIcon from '../../Assets/github.svg';
+import React from 'react';
 import './Nav.css';
+import { useState } from 'react';
+import ComputerNav from '../ComputerNav/ComputerNav.js';
+import MobileNav from '../MobileNav/MobileNav';
 
 function Nav() {
+    const [width, setWidth] = useState(window.innerWidth);
+
+    React.useEffect( () => {
+        const handleWindowResize = () => setWidth(window.innerWidth);
+        window.addEventListener("resize", handleWindowResize);
+        return () => window.removeEventListener("resize", handleWindowResize);
+    }, [])
+
 
     return(
         <nav className='nav'>
-            <div className='container'>
-                <Link to='/'><img className='nav__logo' src={logo} alt='Logo'/></Link>
-                <div className='nav__links'>
-                    <ul>
-                        <li><Link to='/'>HOME</Link></li>
-                        <li><Link to='/about' >ABOUT</Link></li>
-                        <li><Link to='/portfolio'>PORTFOLIO</Link></li>
-                        <li><Link to='/contact'>CONTACT ME</Link></li>
-                    </ul>
-                    <img onClick={() => { window.location.href = 'https://github.com/matthias2003'}} className='nav__icon' src={githubIcon} alt='Github' />
-                </div>
-            </div>
+            { width > 768 ? <ComputerNav /> : <MobileNav /> }
         </nav>
     )
 }
