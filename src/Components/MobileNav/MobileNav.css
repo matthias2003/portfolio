@@ -5,3 +5,17 @@
 .container .nav__mobile__logo {
     width:75px;
 }
+
+.container .side__nav {
+    width: 70%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: none;
+}
+
+.container .nav__mobile__close {
+    width: 32px;
+}

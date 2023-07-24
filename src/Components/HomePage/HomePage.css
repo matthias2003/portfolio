@@ -51,10 +51,6 @@
   height: auto;
 }
 
-.image__wrap {
-  position: relative;
-}
-
 .image__wrap > * {
   transition: all 0.2s linear;
 }
