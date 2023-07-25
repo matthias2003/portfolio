@@ -10,7 +10,6 @@ function MobileNav() {
     const [menuIsClicked, setmenuIsClicked] = useState(false);
 
     const sideNavHandle = (target) => {
-        console.log(target)
         if (target === 'open') {
             setmenuIsClicked(true)
         } else {
@@ -20,13 +19,13 @@ function MobileNav() {
 
     if (menuIsClicked === true) {
         return(
-            <div className='side__nav'>
+            <div className='container__side__nav'>
                 <img onClick={() => sideNavHandle('close')} className='nav__mobile__close' src={close} alt='Close icon'/>
                 <ul>
-                    <li>HOME</li>
-                    <li>ABOUT</li>
-                    <li>PORTFOLIO</li>
-                    <li>CONTACT ME</li>
+                    <li onClick={() => sideNavHandle('close')}><Link to='/'>HOME</Link></li>
+                    <li onClick={() => sideNavHandle('close')}><Link to='/about' >ABOUT</Link></li>
+                    <li onClick={() => sideNavHandle('close')}><Link to='/portfolio'>PORTFOLIO</Link></li>
+                    <li onClick={() => sideNavHandle('close')}><Link to='/contact'>CONTACT ME</Link></li>
                 </ul>
             </div>
         )

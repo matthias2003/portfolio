@@ -2,7 +2,6 @@
   background-color: #94ceca;
   border-radius: 30px;
   width: 70%;
-  height: 500px;
   margin: auto;
   margin-top: 5%;
 }
@@ -19,9 +18,9 @@
   padding: 1%;
   margin: auto;
   border-radius: 30px;
-  height: 35vh;
 }
 
 p {
-    margin: 0px !important
+    margin: 0px !important;
+    padding: 10px;
 }
