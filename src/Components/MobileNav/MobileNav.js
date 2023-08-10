@@ -17,7 +17,7 @@ function MobileNav() {
         }
     }
 
-    if (menuIsClicked === true) {
+    if (menuIsClicked) {
         return(
             <div className='container__side__nav'>
                 <img onClick={() => sideNavHandle('close')} className='nav__mobile__close' src={close} alt='Close icon'/>
@@ -30,7 +30,7 @@ function MobileNav() {
             </div>
         )
     }
-    else if (menuIsClicked === false){
+    else if (!menuIsClicked){
         return(
             <div className='container'>
                 <img onClick={() => sideNavHandle('open')} className='nav__mobile__hamburger' src={hamburger} />

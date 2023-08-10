@@ -2,6 +2,7 @@ import './Portfolio.css';
 import * as thumbnail from '../../Assets/PortfolioThumbnail/index.js';
 
 function Portfolio() {
+
     return(
         <div className="tiles__wrap">
             <div className="tiles">
