@@ -11,7 +11,7 @@
     background: #94CECA;
     border-radius: 30px;
     margin-top: 2%;
-    padding: 1.5%;
+    padding: 0 1.5% 1.5%;
     transition: all 0.1s linear;
 }
 
@@ -24,7 +24,7 @@
     font-weight: 600;
     color: white;
     font-size: 2.2vh;
-    padding-bottom: 3%;
+    padding: 1.5%;
 }
 
 .tiles .image__box {

@@ -1,13 +1,13 @@
 import React from 'react';
 import './Nav.css';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import ComputerNav from '../ComputerNav/ComputerNav.js';
 import MobileNav from '../MobileNav/MobileNav';
 
 function Nav() {
     const [width, setWidth] = useState(window.innerWidth);
 
-    React.useEffect( () => {
+    useEffect( () => {
         const handleWindowResize = () => setWidth(window.innerWidth);
         window.addEventListener("resize", handleWindowResize);
         return () => window.removeEventListener("resize", handleWindowResize);
