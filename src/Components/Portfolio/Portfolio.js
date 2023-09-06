@@ -18,7 +18,7 @@ function Portfolio() {
 
   return (
     <div className="tiles__wrap">
-      {Object.entries(portfolioData).map( item =>
+      {Object.entries(portfolioData).map( item => 
         <SimplifiedPortfolio name={item[1].name} key={item[1].id} img={preview[item[1].name]??emptyPhoto}/>
         )}
     </div>
