@@ -18,6 +18,7 @@ function App() {
             <Route path='/about' element={<About />} />
             <Route path='/portfolio' element={<Portfolio />} />
             <Route path='/contact' element={<Contact />} />
+            <Route path='/portfolio/:name' element={<DetailedPortfolio />} />
           </Routes>
         </div>
       </main>

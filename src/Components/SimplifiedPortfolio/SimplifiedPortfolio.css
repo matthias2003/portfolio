@@ -1,5 +1,50 @@
+.tiles__wrap .tiles {
+    width: 40%;
+    background: #94CECA;
+    border-radius: 30px;
+    margin-top: 2%;
+    padding: 0 1.5% 1.5%;
+    transition: all 0.1s linear;
+}
+
+.tiles__wrap a {
+    display: contents
+}
+
+.tiles__wrap .tiles:hover {
+    scale: 1.02; 
+    cursor: pointer;
+}
+
+.tiles__wrap .tiles p {
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    font-size: 2.2vh;
+    padding: 1.5%;
+}
+
+.tiles .image__box {
+    background-color: white;
+    margin: auto;
+    border-radius: 30px;
+}
+
 .tiles .image__box img {
     width: 100%;
     display: block;
     border-radius: 30px;
 }
+
+ 
+@media only screen and (max-width: 768px) {
+    .tiles__wrap {
+        width: 100%;
+    }
+    
+    .tiles__wrap .tiles {
+        width: 80%;
+        margin-top: 5%;
+        padding: 1.5%;
+    }
+  }
