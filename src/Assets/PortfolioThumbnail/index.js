@@ -1,4 +1,4 @@
-export const tvMaze = require('./tvMaze.png');
-export const heroApp = require('./heroApp.png');
+export const tvMaze = require('./tvmaze.png');
+export const heroApp = require('./heroapp.png');
 export const todoList = require('./todolist.png');
-export const weatherApp = require('./weatherApp.png');
+export const weatherApp = require('./weatherapp.png');
