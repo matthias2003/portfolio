@@ -3,7 +3,7 @@ import SimplifiedPortfolio from "../SimplifiedPortfolio/SimplifiedPortfolio.js";
 import { getGitHubRepos } from "../../requests.js";
 import { useEffect, useState } from "react";
 import emptyPhoto from "../../Assets/emptyPhoto.png";
-import * as preview from "../../Assets/PortfolioThumbnail/index.js";
+import * as preview from "../../Assets/PortfolioThumbnail/index";
 
 function Portfolio() {
   useEffect(() => {
