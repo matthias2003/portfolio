@@ -1,14 +1,10 @@
 .tiles__wrap .tiles {
-    width: 40%;
+    width: 35%;
     background: #94CECA;
     border-radius: 30px;
-    margin-top: 2%;
+    margin: 1%;
     padding: 0 1.5% 1.5%;
     transition: all 0.1s linear;
-}
-
-.tiles__wrap a {
-    display: contents
 }
 
 .tiles__wrap .tiles:hover {
@@ -36,7 +32,6 @@
     border-radius: 30px;
 }
 
- 
 @media only screen and (max-width: 768px) {
     .tiles__wrap {
         width: 100%;

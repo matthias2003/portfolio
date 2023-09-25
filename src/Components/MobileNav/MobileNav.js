@@ -28,8 +28,7 @@ function MobileNav() {
                 </ul>
             </div>
         )
-    }
-    else if (!menuIsClicked){
+    } else if (!menuIsClicked){
         return(
             <div className='container'>
                 <Link to='/'><img className='nav__mobile__logo' src={logo} alt='Logo'/></Link>

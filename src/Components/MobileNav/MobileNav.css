@@ -7,15 +7,17 @@
 }
 
 .container__side__nav {
-    width: 100%;
+    width: 80%;
     background-color: white;
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     height: 100%;
 }
+
 .nav__mobile__close {
     width: 32px;
+    display: flex;
 }
 
 .container__side__nav ul {

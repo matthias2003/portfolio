@@ -1,8 +1,7 @@
 .contact__wrap {
   background-color: black;
-  margin: 8% auto;
+  margin: 12vh auto;
   width: 40%;
-  height: 50vh;
   background-color: #94ceca;
   border-radius: 30px;
   padding: 5px 20px;
@@ -24,27 +23,34 @@
   padding: 2%;
 }
 
-.form__wrap input {
+.form__wrap input, textarea {
+  font-family: 'Montserrat', sans-serif;
   padding: 0.5%;
   margin-top: 2.5%;
   margin-bottom: 2.5%;
   border: none;
-  border-bottom: #D3D3D3 3px solid;
+  border-bottom: #F0F0F0 2px solid;
 }
 
-.form__wrap input:nth-child(3) {
-  margin-bottom: 10%;
-}
+.form__wrap textarea {
+  resize: none;
+ }
 
 .form__wrap input:focus {
   outline: none;
-  border-bottom: #14868C 3px solid;
+  border-bottom: #14868C 2px solid;
+}
+
+.form__wrap textarea:focus {
+  outline: none;
+  border-bottom: #14868C 2px solid;
 }
 
 .contact__wrap button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
   display: flex;
-  margin: auto;
-  margin-top: 5%;
+  margin: 2% auto;
   padding: 1.5% 4%;
   border-radius: 30px;
   border: none;
