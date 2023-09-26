@@ -35,10 +35,11 @@
 @media only screen and (max-width: 768px) {
     .tiles__wrap {
         width: 100%;
+        margin-top: 1vh;
     }
     
     .tiles__wrap .tiles {
-        width: 80%;
+        width: 100%;
         margin-top: 5%;
         padding: 1.5%;
     }

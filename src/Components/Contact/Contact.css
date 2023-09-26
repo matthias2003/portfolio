@@ -1,5 +1,4 @@
 .contact__wrap {
-  background-color: black;
   margin: 12vh auto;
   width: 40%;
   background-color: #94ceca;
@@ -62,4 +61,13 @@
 .contact__wrap button:hover {
   cursor: pointer;
   scale: 1.05;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .contact__wrap {
+    margin: 10vh auto;
+    width: 90%;
+  }
+  
 }
