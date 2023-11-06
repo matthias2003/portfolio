@@ -1,31 +1,40 @@
 .about__wrap {
   display: flex;
-  flex-direction: column;
-  background-color: #94ceca;
-  border-radius: 30px;
-  width: 50%;
   margin: auto;
+  width: 80%;
+  justify-content: space-between ;
   margin-top: 12vh;
 }
 
-.about__wrap h2 {
+.photo__wrap img {
+  width: 250px;
+  height: auto;
+}
+
+.text__wrap h2 {
   text-align: center;
-  color: white;
   font-size: 2.5vh;
+  color: white;
+}
+
+.about__wrap .text__wrap {
+  background-color: #94ceca;
+  border-radius: 30px;
+  width: 60%;
 }
 
 .about__wrap .about__cont {
   width: 95%;
-  background-color: white;
   padding: 1%;
   margin: auto;
   border-radius: 30px;
   margin-bottom:1.5%;
 }
 
-p {
+.about__cont p {
     margin: 0px !important;
     padding: 10px;
+    color: white;
 }
 
 @media only screen and (max-width: 768px) {
