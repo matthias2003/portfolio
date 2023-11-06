@@ -29,7 +29,7 @@ function MobileNav() {
                     <li onClick={() => sideNavHandle('close')}><Link to='/'>HOME</Link></li>
                     <li onClick={() => sideNavHandle('close')}><Link to='/about' >ABOUT</Link></li>
                     <li onClick={() => sideNavHandle('close')}><Link to='/portfolio'>PORTFOLIO</Link></li>
-                    <li onClick={() => sideNavHandle('close')}><Link to='/contact'>CONTACT ME</Link></li>
+                    {/* <li onClick={() => sideNavHandle('close')}><Link to='/contact'>CONTACT ME</Link></li> */}
                 </ul>
             </div>
         </>

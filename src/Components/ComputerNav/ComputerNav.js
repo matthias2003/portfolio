@@ -12,7 +12,7 @@ function ComputerNav() {
                         <li><Link to='/'>HOME</Link></li>
                         <li><Link to='/about' >ABOUT</Link></li>
                         <li><Link to='/portfolio'>PORTFOLIO</Link></li>
-                        <li><Link to='/contact'>CONTACT ME</Link></li>
+                        {/* <li><Link to='/contact'>CONTACT ME</Link></li> */}
                     </ul>
                     <img onClick={() => { window.location.href = 'https://github.com/matthias2003'}} className='nav__icon' src={githubIcon} alt='Github' />
                 </div>
