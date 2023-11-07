@@ -1,9 +1,8 @@
 .about__wrap {
   display: flex;
   margin: auto;
-  width: 80%;
+  width: 60%;
   justify-content: space-between ;
-  margin-top: 12vh;
 }
 
 .photo__wrap img {

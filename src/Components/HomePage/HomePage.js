@@ -18,7 +18,7 @@ function HomePage() {
                 </div>
             </div>
             <div className='image__wrap'>
-                    <div className='circle '><img src={photo} className='image'alt=''/></div>
+                    <div className='circle '><img src={photo} className='image' alt='Memoji'/></div>
             </div>
         </div>
     )

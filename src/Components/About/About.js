@@ -5,7 +5,7 @@ function About() {
   return (
     <div className="about__wrap">
       <div className="photo__wrap">
-        <img src={photo} alt="Memoji photo" />
+        <img src={photo} alt="Memoji" />
       </div>
       <div className="text__wrap">
         <h2>So, who am I?</h2>
