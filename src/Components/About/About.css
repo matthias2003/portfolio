@@ -36,8 +36,23 @@
     color: white;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
   .about__wrap {
       width: 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .about__wrap {
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .about__wrap .text__wrap {
+      width: 90%;
+  }
+
+  .about__wrap .photo__wrap {
+    margin-bottom: 10vh;
   }
 }

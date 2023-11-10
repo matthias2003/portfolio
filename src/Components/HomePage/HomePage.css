@@ -1,6 +1,6 @@
 .home__wrap {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
   width: 65%;
 }
@@ -75,10 +75,12 @@
   .home__wrap {
     margin-top: 1vh;
     justify-content: center;
+    flex-wrap: wrap;
   }
 
   .image__wrap {
     margin-top: 15%;
   }
+
   
 }
