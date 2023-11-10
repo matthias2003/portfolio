@@ -31,15 +31,14 @@
     border-radius: 30px;
 }
 
-@media only screen and (max-width: 768px) {
-    .tiles__wrap {
-        width: 100%;
-        margin-top: 1vh;
-    }
-    
+@media only screen and (max-width: 992px) {
     .tiles__wrap .tiles {
         width: 100%;
         margin-top: 5%;
         padding: 1.5%;
+    }
+
+    .tiles__wrap .tiles:last-child {
+        margin-bottom: 5%;
     }
   }
