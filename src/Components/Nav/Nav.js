@@ -16,7 +16,7 @@ function Nav() {
 
     return(
         <nav className='nav'>
-            { width > 768 ? <ComputerNav /> : <MobileNav /> }
+            { width > 576 ? <ComputerNav /> : <MobileNav /> }
         </nav>
     )
 }
