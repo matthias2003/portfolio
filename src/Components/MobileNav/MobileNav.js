@@ -1,7 +1,7 @@
 import './MobileNav.css';
 import { Link } from 'react-router-dom';
 import hamburger from '../../Assets/hamburger.png';
-import close from '../../Assets/reject.png';
+import close from '../../Assets/next.png';
 import logo from '../../Assets/logo.png';
 import { useState } from 'react';
 
@@ -18,11 +18,12 @@ function MobileNav() {
 
 
     return(
-        <>
+        <>  
             <div className='container'>
                 <Link to='/' onClick={() => sideNavHandle('close')}><img className='nav__mobile__logo' src={logo} alt='Logo'/></Link>
                 <img onClick={() => sideNavHandle('open')} className='nav__mobile__hamburger' src={hamburger} />
             </div>
+            <div className={menuIsClicked ? 'active__blur' : ''}></div>
             <div className={menuIsClicked ? 'container__side__nav active' : 'container__side__nav'}> 
                 <img onClick={() => sideNavHandle('close')} className='nav__mobile__close' src={close} alt='Close icon'/>
                 <ul>

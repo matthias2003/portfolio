@@ -16,7 +16,8 @@
     font-weight: 600;
     color: white;
     font-size: 2.2vh;
-    padding: 1.5%;
+    padding: 2%;
+    margin: 0;
 }
 
 .tiles .image__box {
@@ -35,7 +36,6 @@
     .tiles__wrap .tiles {
         width: 100%;
         margin-top: 5%;
-        padding: 1.5%;
     }
 
     .tiles__wrap .tiles:last-child {
