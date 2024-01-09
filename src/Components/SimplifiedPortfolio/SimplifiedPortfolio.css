@@ -4,6 +4,7 @@
     border-radius: 30px;
     padding: 0 1.5% 1.5%;
     transition: all 0.1s linear;
+    margin: 2%;
 }
 
 .tiles__wrap .tiles:hover {
