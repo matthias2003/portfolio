@@ -21,7 +21,7 @@ function MobileNav() {
         <>  
             <div className='container'>
                 <Link to='/' onClick={() => sideNavHandle('close')}><img className='nav__mobile__logo' src={logo} alt='Logo'/></Link>
-                <img onClick={() => sideNavHandle('open')} className='nav__mobile__hamburger' src={hamburger} />
+                <img onClick={() => sideNavHandle('open')} className='nav__mobile__hamburger' src={hamburger} alt="Hamburger menu" />
             </div>
             <div className={menuIsClicked ? 'active__blur' : ''}></div>
             <div className={menuIsClicked ? 'container__side__nav active' : 'container__side__nav'}> 
